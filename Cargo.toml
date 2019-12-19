@@ -2,6 +2,12 @@
 name = "lpc_checksum"
 version = "0.1.0"
 authors = ["Mary"]
+description = "Handle LPC BootROM checksum calculation for various LPC processor"
+repository = "https://github.com/h1k421/lpc_checksum"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+categories = ["embedded", "development-tools::build-utils"]
+keywords = ["arm", "cortex-m", "nxp", "lpc"]
 edition = "2018"
 
 [dependencies]

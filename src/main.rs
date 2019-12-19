@@ -90,10 +90,10 @@ fn main() -> std::io::Result<()> {
     let mut builder = Builder::from_default_env();
     builder.format_timestamp(None);
 
-    let matches = App::new("LPC BootROOM checksum calculator")
+    let matches = App::new("LPC BootROM checksum calculator")
         .version("1.0")
         .author("Mary")
-        .about("Handle LPC BootROOM checksum calculation for various LPC processor.")
+        .about("Handle LPC BootROM checksum calculation for various LPC processor.")
         .arg(
             Arg::with_name("processor")
                 .short("p")
